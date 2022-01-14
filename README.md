@@ -1,1 +1,1 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/i6qfrcievn2993kj/branch/master?svg=true)](https://ci.appveyor.com/project/Akstel/netology-api-ci-q58dq/branch/master)
+[![Build status](https://ci.appveyor.com/api/projects/status/aijfgn4j4bvdvt9y/branch/master?svg=true)](https://ci.appveyor.com/project/Akstel/netology-postman-echo/branch/master)
