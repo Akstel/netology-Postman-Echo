@@ -14,13 +14,13 @@ class PostmanEchoTest {
         ValidatableResponse some_data = given()
                 .baseUri("https://postman-echo.com")
                 .contentType("text/plain; charset=UTF-8")
-                .body("some data" + "Мы Вас приветствуем!") // отправляемые данные (заголовки и query можно выставлять аналогично)
+                .body("some data" + " Мы Вас приветствуем!") // отправляемые данные (заголовки и query можно выставлять аналогично)
                 // Выполняемые действия
                 .when()
                 .post("/post")
                 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("some data"  + "Мы Вас приветствуем"));
+                .body("data", equalTo("some data"  + " Мы Вас приветствуем"));
     }
 }
