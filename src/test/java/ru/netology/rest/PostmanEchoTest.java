@@ -21,6 +21,6 @@ class PostmanEchoTest {
                 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("some data"  + " Мы Вас приветствуем"));
+                .body("data", equalTo("some data"  + " Мы Вас приветствуем!"));
     }
 }
